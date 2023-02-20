@@ -1,14 +1,7 @@
-# A Basic Stable IDE config for Neovim
+# 00x29a Nvim Configs
 
-> Why does this repo exist?
-
-This config attempts to provide a rock solid fully featured starting point for someone new to Neovim, or just tired of maintaining the basic IDE components of their config.
-
-> What makes it "rock solid"?
-
-All of the included plugins are pinned to a version that ensures they are compatible and will not update potentially introducing errors into your config. For every Neovim release I will update this repo along with the community to keep it up to date with the newest versions.
-
-As I mentioned, this config is meant as a starting point for people new to Neovim who want a familiar IDE experience. The config has a very simple structure that makes it easy to add new plugins.
+Originally cloned from LunarVim's [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide) and modified in an (successful) attempt to get a functional OpenSCAD DE going and obtain a greater understanding of neovim and lua.
+Created new repo to track my changes and enable transfer to new rigs easily.
 
 ## Install Neovim 0.8
 
@@ -31,7 +24,7 @@ sudo make install
 Make sure to remove or move your current `nvim` directory
 
 ```sh
-git clone https://github.com/LunarVim/nvim-basic-ide.git ~/.config/nvim
+git clone https://github.com/00x29a/00x29a-nvim-configs.git ~/.config/nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed
@@ -186,6 +179,8 @@ You can install new plugins here: [plugins](https://github.com/LunarVim/nvim-bas
 - [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 - [nvim-dap-ui](https://github.com/rcarriga/nvim-dap-ui)
 - [DAPInstall.nvim](https://github.com/ravenxrz/DAPInstall.nvim)
+- [nvim-base16](https://github.com/RRethy/nvim-base16)
+- [nvim-transparent](https://github.com/xiyaowong/nvim-transparent)
 
 ---
 

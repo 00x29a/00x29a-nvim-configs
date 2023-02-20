@@ -43,16 +43,17 @@ lualine.setup {
     icons_enabled = true,
     theme = "auto",
     component_separators = { left = "", right = "" },
-    section_separators = { left = "", right = "" },
+    section_separators = { left = '', right = '' },
+--    section_separators = { left = "", right = "" },
     disabled_filetypes = { "alpha", "dashboard" },
     always_divide_middle = true,
   },
   sections = {
-    lualine_a = { "mode" },
+    lualine_a = { {"mode", separator = { left = '░▒▓' }, right_padding = 2}, },
     lualine_b = { "branch" },
     lualine_c = { diagnostics },
     lualine_x = { diff, spaces, "encoding", filetype },
     lualine_y = { location },
-    lualine_z = { "progress" },
+    lualine_z = { {"progress", separator = { right = '▓▒░' }, left_padding = 2}, }
   },
 }

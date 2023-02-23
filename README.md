@@ -1,4 +1,4 @@
-# 00x29a Nvim Configs
+# 00x29a's Nvim Configs
 
 Originally cloned from LunarVim's [nvim-basic-ide](https://github.com/LunarVim/nvim-basic-ide) and modified in an (successful) attempt to get a functional OpenSCAD DE going and obtain a greater understanding of neovim and lua.
 Created new repo to track my changes and enable transfer to new rigs easily.
